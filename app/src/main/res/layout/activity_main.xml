@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_margin="30"
+        android:layout_margin="30dp"
         android:layout_centerHorizontal="true"
         android:id="@+id/imgLogo"
         android:layout_width="150dp"
@@ -16,6 +16,9 @@
         android:src="@drawable/greg"/>
 
     <EditText
+        android:drawableEnd="@drawable/baseline_person"
+        android:layout_margin="20sp"
+        android:padding="10sp"
         android:layout_below="@+id/imgLogo"
         android:id="@+id/edtUsuario"
         android:layout_width="match_parent"
@@ -24,6 +27,9 @@
         android:inputType="textPersonName"/>
 
     <EditText
+        android:drawableEnd="@drawable/baseline_lock"
+        android:layout_margin="20sp"
+        android:padding="10sp"
         android:layout_below="@+id/edtUsuario"
         android:id="@+id/edtSenha"
         android:layout_width="match_parent"
